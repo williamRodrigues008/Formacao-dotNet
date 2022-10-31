@@ -1,0 +1,8 @@
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\bin\Debug\Desenvolvimento.exe.config
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\bin\Debug\Desenvolvimento.exe
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\bin\Debug\Desenvolvimento.pdb
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\obj\Debug\Desenvolvimento.csproj.AssemblyReference.cache
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\obj\Debug\Desenvolvimento.csproj.SuggestedBindingRedirects.cache
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\obj\Debug\Desenvolvimento.csproj.CoreCompileInputs.cache
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\obj\Debug\Desenvolvimento.exe
+C:\Users\WILLI\Desktop\Evolucao dotNet\Desenvolvimento\Desenvolvimento\obj\Debug\Desenvolvimento.pdb
