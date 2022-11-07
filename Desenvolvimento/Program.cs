@@ -14,13 +14,13 @@ namespace Desenvolvimento
             string aulaModelando = "Modelando tipos";
             string aulaConfiguração = "Trabalhando com 'Sets'";
 
-            string[] aulas = new string[] {
-                aulaDeIntroducao,
-                aulaModelando,
-                aulaConfiguração
-            };
+            //string[] aulas = new string[] {
+            //    aulaDeIntroducao,
+            //    aulaModelando,
+            //    aulaConfiguração
+            //};
 
-            Console.WriteLine("O indice de Aula Modelando é o " + Array.IndexOf(aulas, aulaModelando));
+            //Console.WriteLine("O indice de Aula Modelando é o " + Array.IndexOf(aulas, aulaModelando));
 
             //string[] aulas2 = new string[3];
             //aulas2[0] = aulaDeIntroducao;
@@ -31,6 +31,23 @@ namespace Desenvolvimento
             //{
             //    Console.WriteLine(aula);
             //}
+
+            List<string> listas = new List<string>
+            {
+                aulaDeIntroducao,
+                aulaModelando,
+                aulaConfiguração
+            };
+
+            ImprimirLista(listas);
+        }
+
+        private static void ImprimirLista(List<string> listas)
+        {
+            foreach (var itensDaLista in listas)
+            {
+                Console.WriteLine(itensDaLista);
+            }
         }
     }
 }
