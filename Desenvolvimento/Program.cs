@@ -43,9 +43,20 @@ namespace Desenvolvimento
             listas.Add(aulaDeIntroducao);
             listas.Add(aulaModelando);
             listas.Add(aulaConfiguração);
+            //ImprimirLista(listas);
 
 
-            ImprimirLista(listas);
+            Console.WriteLine("Primeira aula: " + listas.First());
+            Console.WriteLine("Ultima aula: " + listas.Last());
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            listas.ForEach(aula =>
+            {
+                Console.WriteLine(aula);
+            });
+            Console.WriteLine();
         }
 
         private static void ImprimirLista(List<string> listas)
