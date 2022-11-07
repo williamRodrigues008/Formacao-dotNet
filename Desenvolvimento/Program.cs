@@ -20,15 +20,17 @@ namespace Desenvolvimento
                 aulaConfiguração
             };
 
-            string[] aulas2 = new string[3];
-            aulas2[0] = aulaDeIntroducao;
-            aulas2[1] = aulaModelando;
-            aulas2[2] = aulaConfiguração;
+            Console.WriteLine("O indice de Aula Modelando é o " + Array.IndexOf(aulas, aulaModelando));
 
-            foreach (var aula in aulas2)
-            {
-                Console.WriteLine(aula);
-            }
+            //string[] aulas2 = new string[3];
+            //aulas2[0] = aulaDeIntroducao;
+            //aulas2[1] = aulaModelando;
+            //aulas2[2] = aulaConfiguração;
+
+            //foreach (var aula in aulas)
+            //{
+            //    Console.WriteLine(aula);
+            //}
         }
     }
 }
