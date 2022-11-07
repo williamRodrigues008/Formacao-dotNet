@@ -32,12 +32,18 @@ namespace Desenvolvimento
             //    Console.WriteLine(aula);
             //}
 
-            List<string> listas = new List<string>
-            {
-                aulaDeIntroducao,
-                aulaModelando,
-                aulaConfiguração
-            };
+            //List<string> listas = new List<string>
+            //{
+            //    aulaDeIntroducao,
+            //    aulaModelando,
+            //    aulaConfiguração
+            //};
+
+            List<string> listas = new List<string>();
+            listas.Add(aulaDeIntroducao);
+            listas.Add(aulaModelando);
+            listas.Add(aulaConfiguração);
+
 
             ImprimirLista(listas);
         }
